@@ -11,8 +11,8 @@ func main() {
 
 func twoSum(num []int, target int) []int {
 	var sum []int
-	for i := 0; i < 2; i++ {
-		sum[i] = num[0]
+	for i := 0; i < len(num); i++ {
+		sum = append(sum, num[i])
 	}
 	return sum
 }
